@@ -11,7 +11,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`!bc |!help FuturBot`,"https://www.twitch.tv/khalidgamer7111")
+client.user.setGame(`!bc |!help By Khalid`,"https://www.twitch.tv/khalidgamer7111")
 client.user.setStatus("dnd")
 });
 
