@@ -1,6 +1,6 @@
 ﻿const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = "%";
+const prefix = "h";
 
 
 
@@ -11,7 +11,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`%bc | The Evil`,"https://www.twitch.tv/khalidgamer7111")
+client.user.setGame(`Hit Radio`)
 client.user.setStatus("dnd")
 });
 
@@ -181,6 +181,29 @@ client.on("message", message => { //clear
   
        
 });
+
+
+
+
+
+client.on("message", async message => {
+    if(message.content.startsWith(prefix + "setup")) {
+        let setup = new Discord.RichEmbed()
+            .setColor("RANDOM")
+            .setDescription(`**
+For Setup The Bot Go To any Room and wright cmd hjoin
+            **`);
+            message.channel.sendEmbed(hit);
+    }
+});
+
+
+
+
+
+
+
+
 
 
 
